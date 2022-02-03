@@ -1,0 +1,32 @@
+python is a strongly typed(Every object in python has a type defiantion), dynamically typed(no type defiantion is required before running python code) and an interpreted language(code compilation and execution is done at the same time i.e runtime compilation and execution).
+
+Resources: 1. https://learnpythonthehardway.org/python3/
+            2. https://www.tutorialspoint.com/python3/
+
+Python Installation on linux system: 
+    sudo add-apt-repository ppa:jonathonf/python-3.6
+    sudo apt-get update
+    sudo apt-get install python3.6
+
+pip installation command:
+    sudo apt-get install python3-pip 
+
+python shell also known as R-E-P-L(Read, Evaluate, Print, Loop).
+
+Data Types: 
+    Scalar Data Types(Holds a single value at a time) - int, float, bool, none
+    Collection Data types(Holds multiple values) - string, list, dictionary,byte
+
+python module is a single executable python file, ending with .py extention, containing code to do a particular task.
+python package is made up of one or more modules that are joined together to perfom a function.
+
+isalpha() - Returns true if the strings consists of letters only and not blank
+isalnum() - Returns true if the strings consist of numbers and letters and not blank
+isdecimal() - Returns true if the strings contain numeric value only
+isspace() - Returns true if the string consist of spaces, tabs or new line
+istitle() - Returns true if the string consist of capital letters on each word
+
+ValueError = error resulting from an operation of unexpected input
+TypeError =error resulting from Operation on unrelated types
+IndentationError = error resulting from Incorect IndentationError
+NameError = error resulting from Undefined variable name
