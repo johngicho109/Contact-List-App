@@ -30,3 +30,14 @@ ValueError = error resulting from an operation of unexpected input
 TypeError =error resulting from Operation on unrelated types
 IndentationError = error resulting from Incorect IndentationError
 NameError = error resulting from Undefined variable name
+
+OOPs
+--------------------------------------------------------------------
+A class is a blueprint of creating an object.
+An object is an instance of a class.
+
+Instance variables are variables that are unique to each new instance of the class
+PEP - Python Enhancement Proposal
+
+self.assertEqual() - It is a testcase method that checks on expected result.It takes two arguments, the first one is the expected result while the second one is the result that it actually gets.
+
