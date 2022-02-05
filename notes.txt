@@ -41,3 +41,13 @@ PEP - Python Enhancement Proposal
 
 self.assertEqual() - It is a testcase method that checks on expected result.It takes two arguments, the first one is the expected result while the second one is the result that it actually gets.
 
+Two Types of files:
+1.Text files - Files that are organized into a sequence of lines that includes a sequence of characters
+2.Binary Files - Files that are not text and have special encodings
+
+Files modes includes:
+r - This means the file is in Read Mode only.
+w- The file is in Write Mode only.
+a -The file is in append mode where we can only add items to the bottom of the file.
+r+ The file is in both read and write mode
+

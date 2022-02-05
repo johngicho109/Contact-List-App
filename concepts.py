@@ -70,3 +70,33 @@ print(t1)
 
 print("I am first\'s one on the list")
 print(r"I am first\'s one on the list")
+
+handle = open("text.txt","r")
+data = handle.read()
+print(data)
+handle.close()
+
+print("-"*20)
+handle2 = open("text.txt","r")
+data2 = handle2.readline()
+print(data2)
+handle2.close()
+
+print("-"*20)
+handle3 = open("text.txt","r")
+data3 = handle3.readlines()
+print(data3)
+handle3.close()
+
+print("-"*20)
+handle4 = open("notes.txt","r")
+data4 = handle4.read()
+counter = 0
+for word in data4.split():
+    if word == "python":
+        counter += 1
+print(counter)
+handle4.close()
+
+with  open("write_text.txt","w") as handle5:
+    handle5.write("Hello world")
